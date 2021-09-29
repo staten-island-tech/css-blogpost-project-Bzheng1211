@@ -1,0 +1,39 @@
+body {
+  background-color: rgba(90, 95, 100);
+}
+h1 {
+  text-align: center;
+  background-color: rgb(55, 55, 55);
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+}
+div {
+  margin-top: 200px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.Math {
+  font-size: 25px;
+  position: absolute;
+  color: white;
+  background-color: rgb(55, 55, 55);
+  padding: 20px 225px 500px 225px;
+  left: 100px;
+  top: 100px;
+}
+.CS {
+  font-size: 25px;
+  position: absolute;
+  color: white;
+  background-color: rgb(55, 55, 55);
+  padding: 20px 150px 500px 150px;
+  left: 55vw;
+  top: 100px;
+}
+.Mblog {
+  font-family: "Gemunu Libre", sans-serif;
+}
+.CSblog {
+  font-family: "Gemunu Libre", sans-serif;
+}
