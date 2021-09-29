@@ -13,16 +13,16 @@ div {
   margin-left: 5px;
   margin-right: 5px;
 }
-.Math {
+.Mblog {
   font-size: 25px;
   position: absolute;
   color: white;
   background-color: rgb(55, 55, 55);
-  padding: 20px 225px 500px 225px;
+  padding: 20px 225px 500px 225sspx;
   left: 100px;
   top: 100px;
 }
-.CS {
+.CSblog {
   font-size: 25px;
   position: absolute;
   color: white;
@@ -31,9 +31,25 @@ div {
   left: 55vw;
   top: 100px;
 }
-.Mblog {
+.Math {
+  position: absolute;
   font-family: "Gemunu Libre", sans-serif;
+  font-size: 15px;
+  color: white;
+  background-color: rgb(55, 55, 55);
+  padding: 40px 20px 40px 20px;
+  margin-left: 10vw;
+  margin-right: 57vw;
+  margin-top: 30vh;
 }
-.CSblog {
+.CS {
+  position: absolute;
   font-family: "Gemunu Libre", sans-serif;
+  font-size: 15px;
+  color: white;
+  background-color: rgb(80, 70, 60);
+  padding: 40px 20px 40px 20px;
+  margin-left: 57vw;
+  margin-right: 10vw;
+  margin-top: 30vh;
 }
