@@ -8,8 +8,8 @@ h1 {
   color: rgb(255, 255, 255);
   padding: 20px;
 }
-div {
-  margin-top: 200px;
+.outer {
+  margin-top: 140px;
   margin-left: 5px;
   margin-right: 5px;
 }
@@ -18,38 +18,48 @@ div {
   position: absolute;
   color: white;
   background-color: rgb(55, 55, 55);
-  padding: 20px 225px 500px 225sspx;
-  left: 100px;
-  top: 100px;
+  padding: 20px 225px 550px 225px;
+  left: 10vw;
+  top: 20vh;
 }
 .CSblog {
   font-size: 25px;
   position: absolute;
   color: white;
   background-color: rgb(55, 55, 55);
-  padding: 20px 150px 500px 150px;
+  padding: 20px 150px 550px 150px;
   left: 55vw;
-  top: 100px;
+  top: 20vh;
 }
 .Math {
   position: absolute;
-  font-family: "Gemunu Libre", sans-serif;
-  font-size: 15px;
-  color: white;
-  background-color: rgb(55, 55, 55);
-  padding: 40px 20px 40px 20px;
+  background-image: url(math-curriculum.jpg);
+  padding: 200px 250px 200px 240px;
   margin-left: 10vw;
-  margin-right: 57vw;
-  margin-top: 30vh;
+  margin-right: 55vw;
+  margin-top: 1vh;
 }
 .CS {
   position: absolute;
-  font-family: "Gemunu Libre", sans-serif;
-  font-size: 15px;
-  color: white;
-  background-color: rgb(80, 70, 60);
-  padding: 40px 20px 40px 20px;
-  margin-left: 57vw;
+  background-image: url(cs.jpg);
+  padding: 200px 250px 200px 250px;
+  margin-left: 55vw;
   margin-right: 10vw;
-  margin-top: 30vh;
+  margin-top: 1vh;
+}
+.CSB {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  margin-left: 55vw;
+  margin-right: 10vw;
+  margin-top: 55vh;
+}
+.mathb {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  margin-left: 10vw;
+  margin-right: 55vw;
+  margin-top: 55vh;
 }
