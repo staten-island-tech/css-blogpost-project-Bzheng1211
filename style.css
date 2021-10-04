@@ -1,12 +1,12 @@
 body {
   background-color: rgba(90, 95, 100);
   font-family: "Gemunu Libre", sans-serif;
+  color: white;
 }
 h1 {
   text-align: center;
   background-color: rgb(55, 55, 55);
   font-size: 35px;
-  color: rgb(255, 255, 255);
   padding: 20px;
   margin: 0px 0px 0px 0px;
 }
@@ -16,32 +16,50 @@ h1 {
   margin-right: 5px;
 }
 .Mblogpost-title {
+  position: absolute;
   font-size: 25px;
-  color: white;
   background-color: rgb(55, 55, 55);
-  padding: 20px 250px 550px 250px;
+  padding: 20px 260px 550px 260px;
 }
-.CSblog {
+.CSblogpost-title {
+  position: absolute;
   font-size: 25px;
-  color: white;
   background-color: rgb(55, 55, 55);
-  padding: 20px 175px 550px 210px;
-  left: 55vw;
-  top: 20vh;
+  padding: 20px 250px 525px 250px;
 }
 .Mathimg {
+  position: relative;
   background-image: url(math-curriculum.jpg);
-  padding: 200px 250px 200px 240px;
+  padding: 200px 250px 200px 250px;
+  left: 2vw;
+  top: 10vh;
 }
 .CSimg {
+  position: relative;
   background-image: url(cs.jpg);
   padding: 200px 250px 200px 250px;
+  left: 3vw;
+  top: 10vh;
 }
-.CSB {
-  color: white;
+.CSpost-desc {
+  position: absolute;
   font-size: 20px;
+  top: 65vh;
+  left: 3vw;
 }
 .mathpost-desc {
-  color: white;
+  position: absolute;
   font-size: 20px;
+  top: 65vh;
+  left: 3vw;
+}
+.Math {
+  position: absolute;
+  left: 5vw;
+  margin-right: 55vw;
+}
+.CS {
+  position: absolute;
+  left: 25vw;
+  margin-left: 30vw;
 }
